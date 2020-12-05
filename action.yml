@@ -1,0 +1,24 @@
+author: Max Romanyuta
+name: Simple Split
+description: This action will split the string by separator
+branding:
+  icon: feather
+  color: white
+inputs:
+  string:
+    description: String to split
+    required: true
+  separator:
+    description: Separator to split a string
+    required: false
+    default: ' '
+  limit:
+    description: Limit on the number of substrings to be included in the array
+    default: '-1'
+    required: false
+outputs:
+  result:
+    description: Action Result
+runs:
+  using: node12
+  main: ./dist/index.js

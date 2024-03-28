@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Split version code
-        uses: xom9ikk/split@v1
+        uses: xom9ikk/split@v1.2
         id: split
         with:
           string: 2.17.3

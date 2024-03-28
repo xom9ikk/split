@@ -1,6 +1,6 @@
 {
   "name": "split",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "private": true,
   "description": "Github Action for splitting strings into parts by separator with limit",
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
   "author": "Max Romanyuta <xom9ik.code@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.10.0"
+    "@actions/core": "^1.10.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.9.0",
